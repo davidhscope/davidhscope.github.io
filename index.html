@@ -2,13 +2,13 @@
 <html>
 <head>
   <script src="https://www.google.com/recaptcha/api.js?render=6Lewh6wUAAAAAFCC7CsFLVzhuSLwH1RW8Q9ip8av"></script>
-
+<script>
   grecaptcha.ready(function() {
       grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'}).then(function(token) {
          console.log(token)
       });
   });
-
+  </script>
   </head>
 <body>
 a
